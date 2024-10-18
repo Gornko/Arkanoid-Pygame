@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import K_LEFT, K_RIGHT  # Importamos las teclas
+from pygame.locals import *
 
 pygame.init()
 
