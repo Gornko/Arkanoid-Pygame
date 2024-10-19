@@ -1,16 +1,14 @@
+#Modulos
 import pygame
 from pygame.locals import *
 
 pygame.init()
 
-# Definir colores
+#---------------------------------
+# VARIABLES
 white = (255, 255, 255)
-
-# Crear la pantalla
-screen = pygame.display.set_mode((800, 600))
-
-# Variables para el bucle
-onOff = True
+screen = pygame.display.set_mode((800, 600)) # Crear la pantallA
+onOff = True # Variables para el bucle
 
 # Crear la posición inicial de la barra
 barra_x = 400  # Posición inicial en X
@@ -18,6 +16,8 @@ barra_y = 580  # Posición Y fija
 barra_width = 100
 barra_height = 10
 velocidad = 1  # Velocidad de movimiento de la barra
+
+
 
 # Bucle principal
 while onOff:
